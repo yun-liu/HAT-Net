@@ -1,4 +1,3 @@
-## TransCNN
-Transformer in Convolutional Neural Networks
+## Transformer in Convolutional Neural Networks
 
 Code is coming soon...
