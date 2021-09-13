@@ -1,6 +1,6 @@
-## Transformer in Convolutional Neural Networks
+## [Transformer in Convolutional Neural Networks](https://arxiv.org/abs/2106.03180)
 
-Code is coming soon...
+This repository is still under development...
 
 
 ### Image Classification
