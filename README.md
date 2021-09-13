@@ -3,6 +3,11 @@
 This repository is still under development...
 
 
+### Installation
+
+This repository exactly follows the code and the training settings of [PVT](https://github.com/whai362/PVT).
+
+
 ### Image Classification
 
 - TransCNN on ImageNet-1K
