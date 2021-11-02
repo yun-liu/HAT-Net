@@ -138,7 +138,7 @@ class Downsample(nn.Module):
         return x
 
 
-class PyramidVisionTransformer(nn.Module):
+class TransCNN(nn.Module):
     def __init__(self, img_size=256, in_chans=3, num_classes=1000, dims=[64, 128, 256, 512],
                  head_dim=32, expansions=[4, 4, 6, 6], grid_sizes=[1, 1, 1, 1],
                  ds_ratios=[8, 4, 2, 1], depths=[3, 4, 8, 3], drop_rate=0.,
@@ -215,7 +215,7 @@ class PyramidVisionTransformer(nn.Module):
 
 @register_model
 def TransCNN_Tiny(pretrained=False, **kwargs):
-    model = PyramidVisionTransformer(
+    model = TransCNN(
         dims=[64, 128, 256, 512], head_dim=64, expansions=[4, 4, 4, 4],
         grid_sizes=[8, 8, 8, 1], ds_ratios=[8, 4, 2, 1], depths=[2, 2, 4, 2], **kwargs)
     model.default_cfg = _cfg()
@@ -224,7 +224,7 @@ def TransCNN_Tiny(pretrained=False, **kwargs):
 
 @register_model
 def TransCNN_Small(pretrained=False, **kwargs):
-    model = PyramidVisionTransformer(
+    model = TransCNN(
         dims=[64, 128, 256, 512], head_dim=64, expansions=[4, 4, 6, 6],
         grid_sizes=[8, 8, 8, 1], ds_ratios=[8, 4, 2, 1], depths=[3, 4, 8, 3], **kwargs)
     model.default_cfg = _cfg()
@@ -233,7 +233,7 @@ def TransCNN_Small(pretrained=False, **kwargs):
 
 @register_model
 def TransCNN_Medium(pretrained=False, **kwargs):
-    model = PyramidVisionTransformer(
+    model = TransCNN(
         dims=[64, 128, 320, 640], head_dim=64, expansions=[4, 4, 6, 6],
         grid_sizes=[8, 8, 8, 1], ds_ratios=[8, 4, 2, 1], depths=[3, 4, 12, 3], **kwargs)
     model.default_cfg = _cfg()
@@ -242,7 +242,7 @@ def TransCNN_Medium(pretrained=False, **kwargs):
 
 @register_model
 def TransCNN_Large(pretrained=False, **kwargs):
-    model = PyramidVisionTransformer(
+    model = TransCNN(
         dims=[64, 128, 384, 768], head_dim=64, expansions=[4, 4, 6, 6],
         grid_sizes=[8, 8, 8, 1], ds_ratios=[8, 4, 2, 1], depths=[3, 4, 16, 3], **kwargs)
     model.default_cfg = _cfg()
