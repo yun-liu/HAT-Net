@@ -12,8 +12,8 @@ This repository exactly follows the code and the training settings of [PVT](http
 
 |     Methods     |   Size    | #Params | #FLOPs | Acc@1 |  Pretrained Models  |
 |-----------------|:---------:|:-------:|:------:|:-----:|:-------------------:|
-|  HAT-Net-Tiny   | 224 x 224 |  12.7M  |  2.0G  |  79.8 | [Google](https://drive.google.com/file/d/1OwazUhr8awul-D07U-RQ-7Zl2o6Ki-zJ/view?usp=sharing) / [Github](https://github.com/yun-liu/TransCNN/releases/download/v1.0/TransCNN-Tiny.pth) |
-|  HAT-Net-Small  | 224 x 224 |  25.7M  |  4.3G  |  82.6 | [Google](https://drive.google.com/file/d/1XLzseiHvaZKiMJ6Ec4BdmLW-gmb5cuq5/view?usp=sharing) / [Github](https://github.com/yun-liu/TransCNN/releases/download/v1.0/TransCNN-Small.pth) |
-|  HAT-Net-Medium | 224 x 224 |  42.9M  |  8.3G  |  84.0 | [Google](https://drive.google.com/file/d/1OMuNIKDqISlxZcxvbuZerUc-ix_LYYUr/view?usp=sharing) / [Github](https://github.com/yun-liu/TransCNN/releases/download/v1.0/TransCNN-Medium.pth) |
-|  HAT-Net-Large  | 224 x 224 |  63.1M  |  11.5G |  84.2 | [Google](https://drive.google.com/file/d/12nRHmZqj3EVDuJA3Iq9E0vRP7ocaI7k3/view?usp=sharing) / [Github](https://github.com/yun-liu/TransCNN/releases/download/v1.0/TransCNN-Large.pth) |
+|  HAT-Net-Tiny   | 224 x 224 |  12.7M  |  2.0G  |  79.8 | [Google](https://drive.google.com/file/d/1iuhOCEMhEqJlCJKk--Qk1w6TcxP_Plgf/view?usp=sharing) / [Github](https://github.com/yun-liu/HAT-Net/releases/download/v2.0/HAT-Net_Tiny.pth) |
+|  HAT-Net-Small  | 224 x 224 |  25.7M  |  4.3G  |  82.6 | [Google](https://drive.google.com/file/d/1lfVT_nCndVAPikAivigl72Ne5XKjfkCp/view?usp=sharing) / [Github](https://github.com/yun-liu/HAT-Net/releases/download/v2.0/HAT-Net_Small.pth) |
+|  HAT-Net-Medium | 224 x 224 |  42.9M  |  8.3G  |  84.0 | [Google](https://drive.google.com/file/d/1fWITg1Cfm0qDaYw7xhfF8pXdbhK5ctHY/view?usp=sharing) / [Github](https://github.com/yun-liu/HAT-Net/releases/download/v2.0/HAT-Net_Medium.pth) |
+|  HAT-Net-Large  | 224 x 224 |  63.1M  |  11.5G |  84.2 | [Google](https://drive.google.com/file/d/1MPNd86S_BvtPDrH_h39vjjvN12opsMki/view?usp=sharing) / [Github](https://github.com/yun-liu/HAT-Net/releases/download/v2.0/HAT-Net_Large.pth) |
 
