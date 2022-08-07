@@ -1,6 +1,6 @@
 ## [Vision Transformers with Hierarchical Attention](https://arxiv.org/abs/2106.03180)
 
-This repository is still under development...
+First named as "Transformer in Convolutional Neural Networks".
 
 
 ### Installation
