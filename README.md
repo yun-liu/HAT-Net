@@ -22,7 +22,7 @@ This repository exactly follows the code and the training settings of [PVT](http
 If you are using the code/models provided here in a publication, please consider citing:
 
     @article{liu2021vision,
-      title={Vision transformers with hierarchical attention},
+      title={Vision Transformers with Hierarchical Attention},
       author={Liu, Yun and Wu, Yu-Huan and Sun, Guolei and Zhang, Le and Chhatkuli, Ajad and Van Gool, Luc},
       journal={arXiv preprint arXiv:2106.03180},
       year={2021}
