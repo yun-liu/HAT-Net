@@ -1,6 +1,6 @@
 ## [Vision Transformers with Hierarchical Attention](https://arxiv.org/abs/2106.03180)
 
-### First titled "Transformer in Convolutional Neural Networks".
+### This work is first titled "Transformer in Convolutional Neural Networks".
 
 
 ### Installation
