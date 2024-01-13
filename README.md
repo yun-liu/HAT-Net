@@ -32,6 +32,5 @@ If you are using the code/models provided here in a publication, please consider
       title={Transformer in Convolutional Neural Networks},
       author={Liu, Yun and Sun, Guolei and Qiu, Yu and Zhang, Le and Chhatkuli, Ajad and Van Gool, Luc},
       journal={arXiv preprint arXiv:2106.03180},
-      volume={3},
       year={2021}
     }
