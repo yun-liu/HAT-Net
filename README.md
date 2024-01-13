@@ -1,6 +1,6 @@
 ## [Vision Transformers with Hierarchical Attention](https://arxiv.org/abs/2106.03180)
 
-### This work is first titled "Transformer in Convolutional Neural Networks".
+### This work is first titled ["Transformer in Convolutional Neural Networks"](https://arxiv.org/abs/2106.03180v2).
 
 
 ### Installation
@@ -21,9 +21,17 @@ This repository exactly follows the code and the training settings of [PVT](http
 
 If you are using the code/models provided here in a publication, please consider citing:
 
-    @article{liu2021vision,
+    @article{liu2024vision,
       title={Vision Transformers with Hierarchical Attention},
       author={Liu, Yun and Wu, Yu-Huan and Sun, Guolei and Zhang, Le and Chhatkuli, Ajad and Van Gool, Luc},
+      journal={Machine Intelligence Research},
+      year={2024}
+    }
+
+    @article{liu2021transformer,
+      title={Transformer in Convolutional Neural Networks},
+      author={Liu, Yun and Sun, Guolei and Qiu, Yu and Zhang, Le and Chhatkuli, Ajad and Van Gool, Luc},
       journal={arXiv preprint arXiv:2106.03180},
+      volume={3},
       year={2021}
     }
