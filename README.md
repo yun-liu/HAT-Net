@@ -25,7 +25,10 @@ If you are using the code/models provided here in a publication, please consider
       title={Vision Transformers with Hierarchical Attention},
       author={Liu, Yun and Wu, Yu-Huan and Sun, Guolei and Zhang, Le and Chhatkuli, Ajad and Van Gool, Luc},
       journal={Machine Intelligence Research},
-      year={2024}
+      volume={21},
+      pages={670--683},
+      year={2024},
+      publisher={Springer}
     }
 
     @article{liu2021transformer,
